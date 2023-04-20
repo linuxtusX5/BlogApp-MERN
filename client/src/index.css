@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'roboto', sans-serif;
+  background-image: url('../assets/Waihou.png');
+  background-size: cover;
+}
+@media (max-width: 768px) {
+body{
+  background-size: auto;
+}
+}
